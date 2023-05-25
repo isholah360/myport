@@ -1,0 +1,28 @@
+.expery{
+    height: 90vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: rgb(32, 32, 32);
+    margin: 0rem 0 0 0;
+}
+.lines-title .expery-title{
+    color: rgb(204, 204, 204);
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: poppins;
+    text-align: center;
+    padding: 3.5rem 0 0rem 0;
+}
+.expery-lines{
+    margin: -1rem 0;
+}
+.expery-lines .lines hr{
+    border-color: aliceblue;
+    background-color: aliceblue; 
+}
+@media screen and (max-width:460px) {
+    .expery{
+        height: 200vh;
+       margin: -5rem 0 0 0;
+    }
+}

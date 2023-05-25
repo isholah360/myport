@@ -1,0 +1,23 @@
+.complete-services{
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(32,32,32) ;
+
+}
+.service-blub{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 4rem 0 0 0;
+}
+
+@media screen and (max-width:460px) {
+    .service-blub{
+       flex-direction: column;
+       margin: 5rem 0;
+    }
+    .complete-services{
+        min-height: 330vh;
+        margin: 0rem 0 0 0;
+    }
+}

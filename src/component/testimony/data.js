@@ -1,0 +1,8 @@
+export const Data = [
+   { id : "1", role:"Laura Mike", name:"Laura Mike", image: "asset/rev3.jpg", testy : "I highly recommend using this company they are amazing, very professional, courteous, and patient, they have done an amazing job creating a website that did more than meet my expectations."},
+   { id : "2", name:"Carrie Lahm", image: "asset/rev1.jpg", testy : "It was worth every penny. They made sure if I’m satisfied with the design. They never mind asking me for multiple revisions if I want to add or edit something from the website. They have been very patient and cooperative until I get what I exactly wanted."},
+   { id : "3", name:"Ayo Adewumi", image: "asset/rev2.jpg", testy : "I am totally happy and satisfied with Adam and his team. They did an excellent job. They were attentive and easy to work with. They did exactly what I asked and my website ended up exceeding my expectations."},
+   { id : "4", name:"Akinola Samuel", image: "asset/Asset24.png", testy : "Excellent support team, kept me up to date, listened well, great web designer, fast turn around, very much impressed and totally recommend and will use again them."},
+   { id : "5", name:"Graham Blake", image: "asset/Asset25.png", testy : "When I started my project with them I was scared and anxious at first but the team has been very cooperative throughout and came to my level to understand me and helped me to calm down. I must say, it was worth my time and money."},
+   { id : "5", name:"Bruce Cumbie", image: "asset/Asset26.png", testy : "We hired them for my web designing and they delivered my web design as per my requirements. Website Design Flex designers are amazing. Easy to work with them, reasonable price, professional designs, fast response!"}
+]

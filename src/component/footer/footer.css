@@ -1,0 +1,102 @@
+.complete-footer{
+    min-height: 90vh;
+    background-color: rgb(43, 43, 43);
+    width: 100vw;
+}
+.contact-form-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -9rem  0 0 0;
+}
+.phone-location-mail {
+    margin: 10rem 0 1rem 0;
+}
+.phone-location-mail .availability{
+    font-family: poppins;
+    max-width: 25rem;
+    margin: 1rem 0 1rem 0;
+    filter: invert(84%) sepia(48%) saturate(1%)
+    hue-rotate(354deg) brightness(95%)
+     contrast(86%);
+}
+.test{
+    width: 50%;
+    margin-left: 5rem;
+    margin: 10rem 0rem 0 0;
+    gap: 1rem;
+}
+
+.testing, .thesubject{
+  height: 2rem;
+  width: 42.5%;
+  max-width: 35rem;
+  padding: .7rem 1.5rem;
+  margin-left: 5rem;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  background: rgba(22, 22, 22, 0.547);
+    border-style: none;
+    color: gray;
+}
+.testingsec{
+    height: 2rem;
+    width: 42.5%;
+    max-width: 35rem;
+    padding: .7rem 1.5rem;
+    font-size: 1.2rem;
+    background: rgba(22, 22, 22, 0.547);
+    border-style: none;
+    color: gray;
+    margin: 0 5rem;
+    
+}
+.thesubject{
+    width: 80%;
+    max-width: 43rem;
+}
+.themsgz{
+    width: 80%;
+    max-width: 43rem;
+    margin-left: 5rem;
+    padding: .7rem 1.5rem;
+    font-size: 1.2rem;
+    color: gray;
+    outline: none;
+    border-style: none;
+    font-family: 'Questrial', sans-serif;
+    background: rgba(22, 22, 22, 0.547);
+}
+
+@media screen and (max-width:460px) {
+    .contact-form-phone{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin: -9rem  0 0 7%;
+        overflow-x: hidden;
+    }
+    .complete-footer{
+        
+        background-color: rgb(43, 43, 43);
+        width: 100vw;
+    }
+    .test{
+        width: 90%;
+        margin: 2rem -4rem;
+    }
+    .testing, .thesubject{
+        width: 100%;
+      }
+      .testingsec{
+          width: 100%;
+          
+      }
+      .thesubject{
+          width: 100%; 
+      }
+      .themsgz{
+          width: 100%;
+      }
+      
+}

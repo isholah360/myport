@@ -1,0 +1,33 @@
+.phone-section .thephone{
+   margin: .7rem 0;
+   filter: invert(84%) sepia(48%) saturate(1%)
+   hue-rotate(354deg) brightness(95%)
+    contrast(86%);
+}
+.phone-section .thephone{
+    display: inline-flex;
+    align-items: center;
+}
+.thephone .thelogo{
+   width: 3.5rem;
+   height: 3.5rem;
+   border-radius: 50%;
+   border-style: solid;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.thephone .thelogo .main-logo{
+    width: 60%;
+    
+ }
+ .thephone .phonenum p{
+    font-family: poppins;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    
+ }
+ .thephone .phonenum .mynum{
+    font-size: 1rem;
+ }
+ 

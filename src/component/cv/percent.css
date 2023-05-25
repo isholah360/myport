@@ -1,0 +1,51 @@
+.the-percent{
+    width: 30vw;
+}
+.outer{
+    max-width: 100%;
+    position: relative;
+    border-width: 5px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 5px;
+}
+.inside{
+    width: 93%;
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(70, 70, 70);
+    border-radius: 5px;
+    top: -5px;
+    left: -5px;
+}
+.sec{
+    width: 95%;
+}
+.third{
+    width: 98%;
+}
+.fourth{
+    width: 99%;
+}
+.percent-name{
+    color: rgb(59, 59, 59);
+    font-size: 1.2rem;
+    margin: .8rem 0;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:460px) {
+    .the-percent{
+        width: 80vw;
+    }
+       
+
+    .outer{
+        margin: 0 0rem;
+        width: 100%;
+    }
+    
+
+}

@@ -1,0 +1,42 @@
+.header{
+    height: 100vh;
+    width: 100vw;
+    background-color: #e5e3e3;
+    display: flex;
+    flex: 2, 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header-pix{
+    height: 90vh;
+    width: 60vw;
+    margin: 0rem -2rem 0 3rem;
+}
+.head-pixel{
+    height: 100%;
+    width: 100%;
+    margin: 2rem 0rem 0 0rem;
+   
+}
+@media screen and (max-width:460px) {
+    .header{
+        flex-direction: column;
+        height: 160vh;
+        overflow-x: hidden;
+    
+    }
+    .header-pix{
+        height: 110vh;
+        width: 90vw;
+        margin: -2rem -2rem 0 0rem;
+    }
+    .head-pixel{
+        height: 100%;
+        width: 100%;
+        margin: 0rem 0rem 0 0rem;
+       
+    }
+  
+}
+
