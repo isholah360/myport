@@ -28,6 +28,11 @@
   list-style: none;
   margin: 0 .9rem;
   font-family: poppins;
+  text-decoration: none;
+}
+.lists li a{
+    text-decoration: none;
+    color: lightgray;
 }
 .nav ul .lists hr{
    display: none;
@@ -84,16 +89,17 @@
         height: 90vh;
         justify-content: center;
         align-items: flex-start;
-         
+        text-decoration: none;
     }
-    .nav ul .lists li{
-       
-    }
+
     .nav ul .lists hr{
        width: 70vw;
        display: block;
        font-weight: 50;
-       margin: .5rem 0;
+       margin: .4rem 0;
+       height: .5px;
+       border-style: none;
+       background-color: rgb(148, 147, 147);
     }
     .nav .mylogo{
         margin: 0 0 0 3rem;
@@ -105,5 +111,9 @@
         position:absolute;
         right: 5rem;
         border-bottom: rgb(32,32,32);;
+    }
+    .lists li a{
+        text-decoration: none;
+        font-size: 1rem;
     }
 }

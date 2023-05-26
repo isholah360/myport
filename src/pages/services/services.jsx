@@ -1,0 +1,13 @@
+// eslint-disable-next-line no-unused-vars
+import React from 'react'
+import './services.css'
+
+function Services() {
+  return (
+    <div>
+      Services
+    </div>
+  )
+}
+
+export default Services

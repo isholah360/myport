@@ -40,6 +40,10 @@ function Footer() {
                     <textarea className="themsgz" name="" id="" cols="40" rows="6" placeholder="Message"></textarea>
               </div>  
           </div>
+          
+             <div className="designby">
+                 SmartWeb@2023 cpoyright reserved
+              </div>
         </div>
     </div>
   )

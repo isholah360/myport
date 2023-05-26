@@ -67,6 +67,10 @@
     font-family: 'Questrial', sans-serif;
     background: rgba(22, 22, 22, 0.547);
 }
+.designby{
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+}
 
 @media screen and (max-width:460px) {
     .contact-form-phone{

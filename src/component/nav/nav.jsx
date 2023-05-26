@@ -3,6 +3,8 @@ import React, {useEffect, useRef, useState}from 'react'
 import './nav.css'
 import { gsap } from 'gsap'
 import { Power3 } from 'gsap/src/index';
+import { Link } from 'react-router-dom';
+
 
 function Nav() {
   const rid = useRef(null)
@@ -37,17 +39,20 @@ function Nav() {
          <ul className={show ? "ul" : "uls"} ref={rid}>
             <div className="lists">
                 <hr />
-                <li> Home</li>
+                <li> <Link to="/myport/"> Home </Link></li>
                 <hr />
-                <li>About</li>
+                <li><Link to="/myport/about" className='link'> About </Link></li>
                 <hr />
-                <li>Portfolio</li>
+                <li><Link to="/myport/services"> Services </Link></li>
                 <hr />
-                <li>Blog</li>
+                <li><Link to="/myport/portfolio"> Portfolio </Link></li>
                 <hr />
-                <li>Contact</li>
+                <li><Link to="/myport/blog"> Blog </Link></li>
+                <hr />
+                <li><Link to="/myport/contact"> Contact </Link></li>
                 <hr />
             </div>
+            
          </ul>
          <div className="farbar" onClick={display}>
             <div></div>
