@@ -32,7 +32,7 @@ function Service() {
             designing. Because I love to solve the design problem and find 
             easy and better solutions to solve it."
              theImage="asset/brand.png"/>
-              <Blub blubTitle="BRANDING"
+              <Blub blubTitle="WORDPRESS"
             blubContent="I love to work in User Experience & User Interface 
             designing. Because I love to solve the design problem and find 
             easy and better solutions to solve it."

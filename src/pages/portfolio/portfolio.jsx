@@ -1,11 +1,13 @@
-import React from "react";
+
+import Load from './load';
 import './portfolio.css'
+
 
 function Portfolio() {
 
   return (
     <>
-      Portfolio
+     <Load/>
     </>
   )
 }

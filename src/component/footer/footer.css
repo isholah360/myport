@@ -70,6 +70,8 @@
 .designby{
     text-align: center;
     padding: 3rem 0 2rem 0;
+    color: lightgray;
+    
 }
 
 @media screen and (max-width:460px) {

@@ -1,27 +1,10 @@
-
+import { Data } from '../../component/blog/blogData';
 import './blog.css'
-import { Data } from './blogData'
-// import { useRef } from 'react'
 
-
-function Blog() {
-
-  const homeBlog = Data.slice(0,3)
-  
+function MainBlog() {
   return (
-    <div>
-      <div className="main-complete">
-          <div className="lines-title">
-            <div className="expery-title">BLOG POSTS</div>
-              <div className="expery-lines">
-                  <div className="lines">
-                      <hr className='line-one' />
-                      <hr />
-                  </div>
-              </div>
-          </div>
-        <div className="complete-blog">
-          {homeBlog.map(main=>(
+    <div  className="complete-blog">
+        {Data.map(main=>(
             <div key={main} className="bloglist">
                 <div className="blogblub">
                   <div className="blogimg">
@@ -47,10 +30,8 @@ function Blog() {
                 </div>
             </div>
           ))}
-        </div>
-      </div>
     </div>
   )
 }
 
-export default Blog
+export default MainBlog

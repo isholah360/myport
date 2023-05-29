@@ -17,31 +17,30 @@ function Nav() {
     setShow(!show)
   }
  useEffect(()=>{
-  if (show === true){
-     gsap.fromTo([ rid.current], { x:"-10rem"}, { x:"0rem", display:"none",
-    duration:1.5, ease:Power3.outIn, transformOrigin:'left', 
+  if (show === false){
+     gsap.fromTo([ rid.current], {  width: "17rem"}, {width:"0", display:"none",
+    duration:1.5, ease:Power3.outIn, transformOrigin:'left',
     stagger:{amount:1}})
   }
-  else if(show === false){
-    gsap.fromTo([ rid.current], { x:"0rem"}, { x:"-10rem", display:"block",
-    duration:1.5, ease:Power3.outIn, transformOrigin:'right', 
+  else if(show === true){
+    gsap.fromTo([ rid.current], {  width:"0"}, { width:"17rem", display:"block",
+    duration:1.5, ease:Power3.outIn, transformOrigin:'right', zIndex:110, 
     stagger:{amount:1}})
   }
  })
  
  
   return (
-    <div>
+    <div className='main-nav'>
       <div className="nav">
         <div className="mylogo">
           SMARTWEB
         </div>
-         <ul className={show ? "ul" : "uls"} ref={rid}>
-            <div className="lists">
+        <div className="listz">
                 <hr />
                 <li> <Link to="/myport/"> Home </Link></li>
                 <hr />
-                <li><Link to="/myport/about" className='link'> About </Link></li>
+                <li><Link to="/myport/about"> About </Link></li>
                 <hr />
                 <li><Link to="/myport/services"> Services </Link></li>
                 <hr />
@@ -52,7 +51,22 @@ function Nav() {
                 <li><Link to="/myport/contact"> Contact </Link></li>
                 <hr />
             </div>
-            
+         <ul className={show ? "ul" : "uls"} ref={rid}>
+            <div className="lists">
+                <hr />
+                <li> <Link to="/myport/"> Home </Link></li>
+                <hr />
+                <li><Link to="/myport/about"> About </Link></li>
+                <hr />
+                <li><Link to="/myport/services"> Services </Link></li>
+                <hr />
+                <li><Link to="/myport/portfolio"> Portfolio </Link></li>
+                <hr />
+                <li><Link to="/myport/blog"> Blog </Link></li>
+                <hr />
+                <li><Link to="/myport/contact"> Contact </Link></li>
+                <hr />
+            </div>
          </ul>
          <div className="farbar" onClick={display}>
             <div></div>

@@ -1,0 +1,56 @@
+.the-whole-service{
+    min-height: 120vh;
+    width: 100vw;
+    background-color: rgb(142, 142, 143);
+    display: flex;
+}
+
+.page-service-left{
+    min-height: 100vh;
+    margin: 0rem 0 0rem 0;
+    background-color: rgb(73, 73, 74);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem 0;
+    min-width: 33%;
+    color: lightgray;
+}
+.page-service-left  .myservives{
+   font-size: 2rem;
+   margin: 2rem 0;
+   font-family: poppins;
+   font-weight: 600;
+}
+.page-service-left  p{
+    font-size: 1rem;
+    margin: .5rem 0;
+    font-family: poppins;
+    justify-content: left;
+   
+ }
+ .page-service-left  .service-list{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   
+ }
+.page-service-right {
+    min-width: 67%;
+    padding: 10rem 0;
+}
+.page-service-right .service-blub{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 0 10%;
+}
+@media screen and (max-width:460px){
+    .the-whole-service{
+       display: block;
+    }
+    .page-service-right .service-blub{
+    
+      display: block;
+        padding: 0 0%;
+    }
+}

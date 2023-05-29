@@ -1,3 +1,8 @@
+.main-nav{
+    position: fixed;
+    z-index: 210;
+   
+}
 .nav {
   height: 6rem;
   background-color: rgb(32,32,32);
@@ -5,17 +10,32 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100vw;
+  z-index: 120;
 }
 .nav .mylogo{
     font-size: 1.5rem;
     font-weight: 700;
 }
 .nav ul {
-  margin: 0 -15rem 0 0;
+  margin: 0 15rem 0 0;
+  display: none;
 }
-.nav .uls {
-    
+.nav .listz {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    min-width: 27rem;
+    font-size: 1em;
+    font-family: poppins;
   }
+  .nav .listz hr {
+  display: none;
+  }
+  .nav .listz a{
+   text-decoration: none;
+   color: lightgray;
+    }
 .nav ul .lists {
  display: flex;
  justify-content: space-around;
@@ -50,37 +70,46 @@
    
 }
 @media screen and (max-width:460px) {
- 
+    .main-nav{
+       
+    }
     .nav{
       overflow-x: hidden;
       justify-content: space-between;
       background-color:  rgb(204, 202, 202);
+      max-width:460px;
+      z-index: 200;
     }
     .nav ul {
         margin: 0 0rem 0 0;
+        overflow-x: hidden;
+         position: absolute;
       }
     .nav .ul{
         display: flex;
         flex-direction: column; 
-        position: absolute;  
+        position: absolute;
         background-color: rgb(32,32,32);
         width: 70vw;
         height: 100vh;
-        right: -20rem;
+        right: 0rem;
         top: 0rem;
+        display: none;
         justify-content: center;
+        z-index: 100; 
     }
     .nav .uls{
         display: flex;
-        flex-direction: column; 
-        position: absolute;  
+        flex-direction: column;   
+        position: absolute; 
         background-color: rgb(32,32,32);
         width: 70vw;
         height: 100vh;
-        right: -10rem;
+        right: 0rem;
         top: 0rem;
+        display: none;
         justify-content: center;
-    
+
     }
     .nav ul .lists{
         display: flex;
@@ -110,10 +139,14 @@
         margin: 0 0rem 0 0;
         position:absolute;
         right: 5rem;
-        border-bottom: rgb(32,32,32);;
+        z-index: 120;
+        border-bottom: rgb(32,32,32);
     }
     .lists li a{
         text-decoration: none;
         font-size: 1rem;
+    }
+    .nav .listz {
+     display: none;
     }
 }

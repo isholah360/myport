@@ -1,0 +1,109 @@
+.main-complete-contact{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(142, 142, 143);
+     display: grid;
+     grid-template-columns: 1.4fr 2.6fr;
+}
+.main-complete-contact .left{
+    height: 100vh;
+    /* width: 35vw; */
+    background-color: rgb(73, 73, 74);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-complete-contact .right{
+    height: 100vh;
+    /* width: 65vw; */
+    background-color: rgb(142, 142, 143);
+}
+.right .test .testin, .testingseco{
+   padding: .5rem 25% .5rem 2rem;
+   font-size: 1rem;
+   margin: 0 0 0 5rem;
+   background-color: rgb(177, 177, 177);
+   border-style: none;
+}
+.right .test .thesubject-s{
+    padding: .5rem 80% .5rem 2rem;
+    font-size: 1rem;
+    margin: 0 0 0 5rem;
+    background-color: rgb(177, 177, 177);
+    border-style: none;
+ }
+ .right .test .themsgz-s{
+    padding: .5rem 0% .5rem 2rem;
+    font-size: 1rem;
+    font-family: poppins;
+    border-style: none;
+    margin: 0 0 0 5rem;
+    background-color: rgb(177, 177, 177);
+ }
+ .left .contactimg{
+  width: 11rem;
+  height: 11rem;
+  margin: 0 0 -7.5rem 0;
+  border-style: solid;
+  border-color: rgb(177, 177, 177); 
+  border-width: 10px;
+  border-radius: 50%;
+  padding: .2rem;
+ }
+ .left .contactimg .main-contactimg{
+    width: 100%;
+    border-radius: 50%;
+   }
+   .left .get-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: lightgray;
+    font-family: poppins;
+    margin: 3rem 0 2rem 0;
+}
+ @media screen and (max-width: 460px){
+    .main-complete-contact{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .main-complete-contact .left{
+      padding: 0 7%;
+    }
+    .main-complete-contact .right{
+        padding: 0 7%;
+      }
+      .right .test .testin, .testingseco{
+      width: 100%;
+     }
+    .right .test .thesubject-s{
+        width: 100%;
+       
+     }
+     .right .test .themsgz-s{
+        width: 100%;
+     }
+     .main-complete-contact .left{
+        height: 120vh;
+        padding: 1rem 8%;
+    }
+    .main-complete-contact .right{
+        padding: 2rem 8%;
+    }
+     .left .contactimg{
+        width: 11rem;
+        height: 11rem;
+        margin: 1rem 0 -7rem 0;
+       }
+       .main-complete-contact{
+        height: 200vh;
+    }
+    .left .get-title{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: lightgray;
+        font-family: poppins;
+        margin: 3rem 0 0 0;
+    }
+ }

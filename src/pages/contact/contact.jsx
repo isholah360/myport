@@ -1,11 +1,44 @@
-import React from "react";
+
 import './contact.css'
+import Phone from "../../component/footer/phone";
 
 function Contact() {
 
   return (
     <>
-      Homepage
+      <div className="main-complete-contact">
+        <div className="left">
+              <p className="get-title"> LET'S GET IN TOUCH </p>
+            <div className="contactimg">
+              <img className="main-contactimg" src="asset/pass.jpg" alt="" />
+            </div>
+          <div className="contactcontent">
+              <div className="phone-location-mail">
+                <div className="availability">
+                Always available for freelance work if the 
+                right project comes along, Feel free to contact me!
+                </div>
+                    <Phone phone="Phone" myNum="+2348068235454" phoneImg="asset/phone.png"/>
+                    <Phone phone="Email" myNum="Isholah@360@gmail.com" phoneImg="asset/email.png"/>
+                    <Phone phone="Location" myNum="Adekunle Fajuyi Barrack, Ojoo, Ibadan" phoneImg="asset/home.png"/>
+              </div>
+          </div>
+        </div>
+        <div className="right">
+              <div className="test">
+                    <input className="testin" type="text" name="" id="" placeholder="Name"/>
+                    <br className="brake"/>
+                    <br className="brake"/>
+                    <input className="testingseco" type="text" name="" id="" placeholder="Mail"/>
+                    <br></br>
+                    <br></br>
+                    <input className="thesubject-s" type="text" name="" id="" placeholder="Subject"/>
+                    <br></br>
+                    <br></br>
+                    <textarea className="themsgz-s" name="" id="" cols="34" rows="6" placeholder="Message"></textarea>
+              </div> 
+        </div>
+      </div>
     </>
   )
 }

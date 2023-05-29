@@ -42,7 +42,7 @@ function Footer() {
           </div>
           
              <div className="designby">
-                 SmartWeb@2023 cpoyright reserved
+                 Copyright © 2023 SmartWeb. All rights reserved.
               </div>
         </div>
     </div>
