@@ -9,6 +9,7 @@ function Cv() {
     <div>
       <div className="cv-plane">
         <div className="lines">
+          <div className="about-us">ABOUT ME</div>
             <hr className='line-one' />
             <hr />
         </div>

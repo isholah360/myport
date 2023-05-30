@@ -1,11 +1,12 @@
 .cv-plane{
-    height: 85vh;
+    min-height: 90vh;
     width: 100vw;
     background-color: rgb(171, 170, 170);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; 
+    padding: 3rem 0;
 }
 .download-percent{
     display: flex;
@@ -40,6 +41,13 @@
     justify-content: center;
     margin: 2rem 0;
 }
+.lines .about-us{
+   font-size: 1.5rem;
+   font-family: poppins;
+   font-weight: 600;
+   margin: -2rem 0 2rem 0;
+   color:  rgb(54, 54, 54);;
+}
 .lines hr{
     
     width: 6rem;
@@ -60,10 +68,11 @@
 @media screen and (max-width:460px) {
   
     .cv-plane{
-        height: 170vh;
+        min-height: 140vh;
         flex-direction: column;
         overflow-x: hidden;
-        margin: 0 0 5rem 0;
+        margin: 0rem 0 5rem 0;
+        padding: 3rem 0 3rem 0;
     }
 
     .download-percent{

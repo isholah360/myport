@@ -28,7 +28,7 @@
     
     }
     .header-pix{
-        height: 115vh;
+        min-height: 50vh;
         width: 90vw;
         margin: -2rem -2rem 0 0rem;
     }

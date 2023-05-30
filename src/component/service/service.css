@@ -1,5 +1,5 @@
 .complete-services{
-    height: 90vh;
+    min-height: 90vh;
     width: 100vw;
     background-color: rgb(32,32,32) ;
 
@@ -17,7 +17,8 @@
        margin: 5rem 0;
     }
     .complete-services{
-        min-height: 330vh;
+        min-height: 150vh;
         margin: 0rem 0 0 0;
+        padding: 0 0 3rem 0;
     }
 }

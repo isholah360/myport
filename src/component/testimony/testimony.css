@@ -1,6 +1,6 @@
 .complete-testimony{
     background-color: rgb(171,170,170);
-    height: 95vh;
+    min-height: 95vh;
     width: 100vw;
 }
 .lines-title .testy{
@@ -24,7 +24,8 @@
 
 @media screen and (max-width:460px) {
     .complete-testimony{
-        height: 130vh;
+        min-height: 100vh;
+        padding: 0 0 4rem 0;
     }
    
 }
