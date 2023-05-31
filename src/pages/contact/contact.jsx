@@ -1,6 +1,7 @@
 
 import './contact.css'
 import Phone from "../../component/footer/phone";
+import { Link } from 'react-router-dom';
 
 function Contact() {
 
@@ -23,6 +24,19 @@ function Contact() {
                     <Phone phone="Location" myNum="Adekunle Fajuyi Barrack, Ojoo, Ibadan" phoneImg="asset/home.png"/>
               </div>
           </div>
+              <div className="socials">
+                  <div className="soc-img">
+                     <Link to="https://twitter.com/isholah360?t=-nQPRU6sJIST1RmlDLNsPg&s=09"> 
+                     <img className='main-soc-img' src="asset/twitter.png" alt="" /></Link>
+                  </div>
+                  <div className="soc-img">
+                     <Link to="https://www.linkedin.com/in/ishola-durosinmi-69a01476">
+                       <img className='main-soc-img' src="asset/linkedin.png" alt="" /></Link>
+                  </div>
+                  <div className="soc-img">
+                      <img className='main-soc-img' src="asset/instagram.png" alt="" />
+                  </div>
+              </div>
         </div>
         <div className="right">
               <div className="test">
@@ -35,7 +49,7 @@ function Contact() {
                     <input className="thesubject-s" type="text" name="" id="" placeholder="Subject"/>
                     <br></br>
                     <br></br>
-                    <textarea className="themsgz-s" name="" id="" cols="34" rows="6" placeholder="Message"></textarea>
+                    <textarea className="themsgz-s" name="" id="" cols="50" rows="6" placeholder="Message"></textarea>
               </div> 
         </div>
       </div>
