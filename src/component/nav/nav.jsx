@@ -4,12 +4,16 @@ import './nav.css'
 import { gsap } from 'gsap'
 import { Power3 } from 'gsap/src/index';
 import { Link } from 'react-router-dom';
+import Cursor from '../custom/custom';
 
 
 function Nav() {
   const rid = useRef(null)
-   
- 
+
+  const ref2 = ()=>{
+    
+  }
+
 
   const [show, setShow] = useState(false)
 
@@ -38,7 +42,7 @@ function Nav() {
         </div>
         <div className="listz">
                 <hr />
-                <li> <Link to="/myport/"> Home </Link></li>
+                <li onMouseEnter={ref2}> <Link to="/myport/"> Home </Link></li>
                 <hr />
                 <li><Link to="/myport/about"> About </Link></li>
                 <hr />

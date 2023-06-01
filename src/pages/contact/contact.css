@@ -17,7 +17,7 @@
     padding: 0 0 3rem 0;
 }
 .main-complete-contact .right{
-    height: 100vh;
+    min-height: 100vh;
     /* width: 65vw; */
     background-color: rgb(142, 142, 143);
 }
@@ -71,7 +71,7 @@
   margin: 1rem 0 0 0;
 }
 .socials .soc-img{
-    width: 1.6grem;
+    width: 1.6rem;
     cursor: pointer;
 }
 .socials .soc-img .main-soc-img{
@@ -93,11 +93,12 @@
     
     }
     .main-complete-contact .left{
-      padding: 0 7%;
-      padding: 0 0 5rem 0;
+      padding: 1rem 9% 10rem 9%;
+     min-height: 140vh;
     }
     .main-complete-contact .right{
         padding: 0 7%;
+        min-height: 70vh;
       }
       .right .test .testin, .testingseco{
       width: 100%;
@@ -109,10 +110,7 @@
      .right .test .themsgz-s{
         width: 100%;
      }
-     .main-complete-contact .left{
-        height: 120vh;
-        padding: 1rem 8%;
-    }
+
     .main-complete-contact .right{
         padding: 2rem 8%;
     }
@@ -122,13 +120,13 @@
         margin: 1rem 0 -7rem 0;
        }
        .main-complete-contact{
-        height: 200vh;
+        min-height: 150vh;
     }
     .left .get-title{
         font-size: 1.5rem;
         font-weight: 600;
         color: lightgray;
         font-family: poppins;
-        margin: 3rem 0 0 0;
+        margin: 0rem 0 0 0;
     }
  }

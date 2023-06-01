@@ -1,0 +1,71 @@
+.cover{
+    width: 100vw;
+    height: 110vh;
+    position: absolute;
+    color: lightgray;
+    top: 0;
+    z-index: 250;
+}
+.cover .left .node{
+    width: 100vw;
+    height: 22.1vh;
+    background-color: rgb(34, 33, 33);
+}
+.cover .right .node{
+    width: 100vw;
+    height: 22.1vh;
+    background-color: rgb(34, 33, 33);
+}
+.right .fourth{
+    width: 55vw;
+    height: 22.1vh;
+    margin: 0 0 0 40rem;
+    background-color: rgb(34, 33, 33);
+    flex-direction: row-reverse;
+}
+.sixth{
+ margin: -1rem 0;
+}
+.right{
+    margin: -9.0rem 0 0 0;
+}
+.smartweb{
+    z-index: 300;
+    color: lightgray;
+    font-size: 10rem;
+    width: 100vw;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 30%;
+}
+.smartweb .world{
+    font-size: 2rem;
+    margin: -1rem 0 0 0;
+}
+@media screen and (max-width: 460px){
+    .cover{
+        left: 0;
+    }
+    .right{
+        margin: -11rem 0 0 0;
+    }
+    .cover .right .fourth{
+        width: 55vw;
+        height: 22.1vh;
+        margin: 0 0 0 45vw;
+        background-color: rgb(34, 33, 33);
+        flex-direction: row-reverse;
+    }
+    .cover .smartweb{
+        font-size: 3rem; 
+    }
+    .cover .smartweb .world{
+        font-size: 1rem;
+        margin: .7rem 0 0 0;
+    }
+}

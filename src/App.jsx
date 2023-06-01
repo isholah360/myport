@@ -1,6 +1,7 @@
 
 import './App.css'
 import { Nav } from './component'
+import Cursor from './component/custom/custom'
 import {About, Blog, Contact, Home, Portfolio, Services} from './pages/index'
 import {Routes, Route} from 'react-router-dom'
 
@@ -9,6 +10,7 @@ function App() {
 
   return (
     <>
+    <Cursor/>
     <Nav/>
     <Routes>
         <Route path="/myport/" element={<Home/>}/>

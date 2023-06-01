@@ -23,14 +23,14 @@
 @media screen and (max-width:460px) {
     .header{
         flex-direction: column;
-        height: 180vh;
+        min-height: 140vh;
         overflow-x: hidden;
     
     }
     .header-pix{
-        min-height: 50vh;
+        height: 50vh;
         width: 90vw;
-        margin: -2rem -2rem 0 0rem;
+        margin: 2rem -2rem 0 0rem;
     }
     .head-pixel{
         height: 100%;
