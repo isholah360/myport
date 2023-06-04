@@ -23,7 +23,7 @@
 @media screen and (max-width:460px) {
     .header{
         flex-direction: column;
-        height: 180vh;
+        height: 140vh;
         overflow-x: hidden;
     
     }
