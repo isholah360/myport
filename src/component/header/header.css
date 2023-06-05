@@ -12,7 +12,7 @@
 .header-pix{
     height: 90vh;
     width: 60vw;
-    margin: -2.2rem -3rem 0 3rem;
+    margin: -2rem -3rem 0 3rem;
 }
 .head-pixel{
     height: 100%;
@@ -23,7 +23,7 @@
 @media screen and (max-width:460px) {
     .header{
         flex-direction: column;
-        height: 133vh;
+        min-height: 132vh;
         overflow-x: hidden;
     
     }

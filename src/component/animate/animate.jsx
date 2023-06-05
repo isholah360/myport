@@ -19,10 +19,10 @@ function Animate() {
           gsap.fromTo([ node3.current, ], {  width: "50vw"}, {width:"0", 
           duration:2, ease:Power3.outIn, transformOrigin:'left', delay: 3.8,
           stagger:{amount:2}})
-          gsap.fromTo([ node5.current, node6.current, ], {  x: "0"}, {x:"100rem", 
+          gsap.fromTo([ node5.current, node6.current, ], {  x: "0"}, {x:"100rem", display:"none",
           duration:2, ease:Power3.outIn, transformOrigin:'left', delay: 4.2,
           stagger:{amount:.3}})
-          gsap.fromTo([ node4.current, ], {   x:"0rem",}, { x:"50rem",
+          gsap.fromTo([ node4.current, ], {   x:"0rem",}, { x:"50rem", display:"none",
           duration:2, ease:Power3.outIn, transformOrigin:'right', delay: 3.8,
           stagger:{amount:2}})
           gsap.fromTo([ node7.current, ], { y:"0rem", opacity: 1}, { y:"30rem", opacity: 0,

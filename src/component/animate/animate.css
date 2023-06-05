@@ -5,6 +5,7 @@
     color: lightgray;
     top: 5rem;
     z-index: 250;
+    overflow-x: hidden;
 }
 .cover .left .node{
     width: 100vw;
